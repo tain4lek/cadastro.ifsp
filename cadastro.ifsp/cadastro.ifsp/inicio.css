@@ -1,0 +1,65 @@
+//* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e1766, #131537); /* Gradiente de roxo para azul escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo da caixa principal */
+.container {
+    background: linear-gradient(to right, #4e1766, #131537); /* Mesmo gradiente para manter consistência */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Estilo do título h1 */
+h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #6c3082; /* Roxo escuro */
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a2674; /* Roxo mais escuro no hover */
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
