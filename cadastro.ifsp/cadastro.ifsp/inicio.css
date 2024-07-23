@@ -1,4 +1,4 @@
-//* Reset básico */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +37,7 @@ h1 {
 form {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Permite que os botões se ajustem em uma linha */
 }
 
 /* Estilo dos botões */
